@@ -1,0 +1,21 @@
+name: em
+channels:
+  - conda-forge
+dependencies:
+  - git
+  - pip
+  - mkl-devel
+  - pkg-config
+  - cmake
+  - cython 
+  - ninja
+  - matplotlib
+  - simpeg
+  - pydiso
+  - dill
+  - pandas
+  - jupyterlab
+  - ipywidgets
+  - pip:
+    - git+https://github.com/simpeg/simpeg.git@em1d_stitched_v022
+    - libaarhusxyz
